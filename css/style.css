@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  color: #f1f1f1 !important;
+  opacity: 2.25 !important;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../assets/banner.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .row {
+  position: relative;
+}
+header .row .navbar {
+  position: absolute;
+  top: 6vh;
+  border: 1px solid #f3f3f3;
+  background-color: #0f0f0f !important;
+}
+.navbar-toggler-icon {
+  background-color: #f3f3f3 !important;
+}
+.btn-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0 !important;
+  border: 1px solid white !important;
+  color: white;
+}
+
+.hero-text {
+  color: #f1f1f1;
+  height: inherit !important;
+  top: 30vh !important;
+  position: absolute;
+}
+.hero-text .contact-our-team {
+  font-size: bold;
+  font-weight: 700;
+}
+main {
+  background-color: #0f0f0f;
+}
+.contact .contact-cards {
+  margin: 40px 0px;
+}
+.contact .contact-cards .card {
+  height: 300px;
+  border-radius: 2px !important;
+  border: 1px solid #f1f1f1;
+}
+.contact .contact-cards .card .card-body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.service .service-cards {
+  margin: 30px 0px;
+}
+.service .service-cards .service-img {
+  border-radius: 0px 0px 50px 0px;
+}
+.contact-form .container .row .form-col input {
+  border-radius: 0 !important;
+  height: 50px !important;
+}
+.contact-form .container .row .form-select {
+  border-radius: 0 !important;
+  height: 50px !important;
+}
+.contact-form .container .row .form-control {
+  border-radius: 0 !important;
+}
+.contact-form .container .row .btn-send {
+  border-radius: 0 !important;
+  height: 50px !important;
+}
